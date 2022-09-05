@@ -1,8 +1,7 @@
 from django.shortcuts import get_object_or_404
-from rest_framework import filters, permissions, status, viewsets, generics
+from rest_framework import filters, permissions,viewsets, generics
 from rest_framework.pagination import LimitOffsetPagination
 
-from rest_framework.response import Response
 
 from posts.models import Group, Post, User
 
